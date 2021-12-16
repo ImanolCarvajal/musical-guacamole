@@ -1,0 +1,52 @@
+/* A todos los elementos le añadimos la propiedad  */
+* {
+  box-sizing: border-box;
+
+}
+
+#main {
+  display: grid;
+  grid-gap: 0.1em;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  bor
+}
+
+.item {
+  border: 6px solid black;
+}
+
+.marco-imagen {
+
+}
+
+/* Para que la imagen no sobrepase los bordes de la capa que la contiene */
+.imagen-jugador {
+  max-width: 100%;
+}
+
+.nombre-jugador {
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+
+.estadisticas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+  grid-column-gap: 4em;
+}
+
+.estadistica {
+
+}
+
+.columna-derecha {
+text-align: right;
+ }
+.columna-izquierda { }
+
+.puntos {
+  font-weight: bolder;
+}
